@@ -15,7 +15,7 @@ body .box .main2 {
 
 /* index2 */
 body .box#index2 {
-  background: url(/img/main/bgAbout.jpg) no-repeat center/cover;
+  background: url(../img/main/bgAbout.jpg) no-repeat center/cover;
   position: relative;
 }
 body .box#index2::after {
@@ -107,7 +107,7 @@ body .box#index3::before {
 /* index4 */
 #index4 {
   position: relative;
-  background: url(/img/main/bgBusiness.jpg) no-repeat center/cover;
+  background: url(../img/main/bgBusiness.jpg) no-repeat center/cover;
 }
 body .box#index4::after {
   content: 'BUSINESS';
@@ -178,7 +178,7 @@ body .box#index5::before {
 /* index6 */
 #index6 {
   position: relative;
-  background: url(/img/main/bgNews.jpg) no-repeat center/cover;
+  background: url(../img/main/bgNews.jpg) no-repeat center/cover;
   background-position-x: 80%;
 }
 body .box#index6::after {

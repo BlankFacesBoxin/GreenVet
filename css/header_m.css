@@ -134,7 +134,7 @@
   opacity: 0;
 }
 .mobile_headerTop.header_scroll .header_logo {
-  background: url(/img/main/GREENVETHeaderScroll.png) no-repeat center/cover;
+  background: url(../img/main/GREENVETHeaderScroll.png) no-repeat center/cover;
 }
 .mobile_headerTop.header_scroll .header_mobile_menu i {
   background: #222;
