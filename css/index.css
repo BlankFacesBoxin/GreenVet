@@ -1,0 +1,462 @@
+/* sideMenu */
+.sideMenu {
+  position: fixed;
+  z-index: 5;
+  left: 10em; top: 50%;
+}
+.sideMenu li {
+  font-size: 1.4rem;
+  color: #fff;
+  line-height: 2;
+  cursor: pointer;
+  position: relative;
+}
+.sideMenu li strong {
+  font-weight: 400;
+}
+.sideMenu li.active2 span::after {
+  content: '';
+  position: absolute;
+  left: 0; top: 13px;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  border-radius: 50%;
+}
+.sideMenu li span strong {
+  display: block;
+  opacity: 0;
+}
+.sideMenu li.active span strong {
+  opacity: 1;
+  position: relative;
+}
+.sideMenu li::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -100%; right: 110%;
+  height: 2px;
+  background: #88cbc9;
+  transform: scaleX(0);
+  transition: transform 500ms ease;
+  transform-origin: left;
+}
+.sideMenu li:hover::before {
+  transform: scaleX(1);
+}
+/* main1 */
+.main1 {
+  position: relative;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.main1 video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.main1::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+.box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.main_text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;
+}
+.main_text h1 {
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  font-size: 5.6rem;
+}
+.main_text p {
+  margin-top: 1em;
+  font-size: 2.6rem;
+}
+.mainView1 .main_text p {
+  font-size: 2rem;
+}
+.textBlur {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+.textBlur p {
+  width: 740px;
+  height: 647px;
+  -webkit-clip-path: path('M740.92.6S544.957,21.975,370.94,153.795l-.013-.027-.027.027C196.883,21.975.92.6.92.6L370.927,648.088l176.59-309.037Z');
+  clip-path: path('M740.92.6S544.957,21.975,370.94,153.795l-.013-.027-.027.027C196.883,21.975.92.6.92.6L370.927,648.088l176.59-309.037Z');
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.scroll {
+  position: absolute;
+  bottom: 8em; left: 50%;
+  transform: translateX(-50%);
+}
+/* main2 */
+.mainView2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  padding: 10em 20em;
+  background: rgba(0, 0, 0, 0.1);
+}
+.mainView2_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainView2 .main2_title h2 {
+  font-size: 5.6rem;
+  line-height: 1;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+}
+.mainView2 .main2_title p {
+  font-size: 2rem;
+  line-height: 1;
+  margin-top: 1.2em;
+}
+.mainView2 .main2_img {
+  display: flex;
+  align-items: center;
+}
+.mainView2 .main2_img .main2_imgText h4 {
+  font-size: 3.2rem;
+  color: #00ABE3;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+}
+.mainView2 .main2_img .main2_imgText.right h4 {
+  color: #88cbc9;
+}
+.mainView2 .main2_img .main2_imgText p {
+  font-size: 1.4rem;
+  color: #222;
+  margin-top: 1em;
+}
+/* .mainView2 */ .main_btn {
+  background: #88cbc9;
+  padding: 12px 50px;
+  border-radius: 25px;
+  transition: all 0.4s;
+  font-size: 1.6rem;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  color: #fff;
+  position: relative;
+  width: 25%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid #88cbc9;
+}
+/* .mainView2 */ .main_btn a {
+  margin-left: 10px;
+}
+/* .mainView2 */ .main_btn a::before {
+  content: '';
+  position: absolute;
+  left: 25%; top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 8px;
+  background: #FFF;
+}
+/* .mainView2 */ .main_btn a::after {
+  content: '';
+  position: absolute;
+  left: 25%; top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  width: 1px;
+  height: 8px;
+  background: #FFF;
+}
+/* .mainView2 */ .main_btn:hover {
+  color: #88cbc9;
+  background: #fff;
+  border: 1px solid #88cbc9;
+  box-sizing: border-box;
+}
+/* .mainView2 */ .main_btn:hover a::after {
+  background-color: #88cbc9;
+}
+/* .mainView2 */ .main_btn:hover a::before {
+  background-color: #88cbc9;
+}
+/* main3 */
+.mainView3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.1);
+}
+.mainView3 .businessText {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.mainView3 .businessText h2 {
+  font-size: 5.6rem;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+}
+.mainView3 .businessText p {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 1em;
+}
+.businessImg {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60vw;
+}
+.businessImg > div:first-child {
+  background: url(../img/main/businessInfo01.jpg) no-repeat center/cover;
+}
+.businessImg > div:nth-child(2) {
+  background: url(../img/main/businessInfo02.jpg) no-repeat center/cover;
+  color: #fff;
+}
+.businessImg > div:nth-child(3) {
+  background: url(../img/main/businessInfo03.jpg) no-repeat center/cover;
+}
+.businessImg > div:nth-child(2) h4 {
+  color: #fff;
+}
+.businessImg_area {
+  width: 20%;
+  height: 355px;
+  background: #ccc;
+  position: relative;
+  transition: all 0.7s;
+  padding: 44px;
+  box-sizing: border-box;
+  filter: grayscale(100%);
+}
+.businessImg_area.mouseOn {
+  width: 50%;
+  filter: none;
+}
+.businessImg_area h4 {
+  font-size: 2.6rem;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  font-weight: bold;
+  color: #222;
+  line-height: 2.1;
+}
+.businessImg_area p {
+  font-size: 1.6rem;
+  opacity: 0;
+}
+.businessImg_area.mouseOn p {
+  opacity: 1;
+}
+.businessImg_area .main_btn {
+  position: absolute;
+  right: 3.125em; bottom: 3.125em;
+  width: 10.938em;
+  padding: 0.813em 2.188em;
+  background: #222;
+  border: 1px solid #222;
+  opacity: 0;
+}
+.businessImg_area.mouseOn .main_btn {
+  opacity: 1;
+}
+.businessImg_area .main_btn:hover {
+  background: #fff;
+  color: #222;
+  border: 1px solid #222;
+}
+.businessImg_area .main_btn:hover a::after {
+  background: #222;
+}
+.businessImg_area .main_btn:hover a::before {
+  background: #222;
+}
+.businessImg_area .main_btn a {
+  margin-left: 1.250em;
+}
+/* index7 */
+.mainView4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+}
+.index7_text {
+  text-align: center;
+}
+.index7_text h2 {
+  font-size: 5.6rem;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  line-height: 1.2;
+  margin-bottom: 0.304em;
+}
+.index7_text p {
+  font-size: 2rem;
+}
+.index7_table {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 5.3em;
+}
+.index7_table h4 {
+  font-size: 2.6rem;
+  margin-left: 1em;
+  margin-bottom: 0.692em;
+  position: relative;
+}
+.index7_table h4::before {
+  content: '';
+  position: absolute;
+  background: #88cbc9;
+  left: -6%; top: 50%;
+  height: 2px;
+  width: 0.577em;
+}
+.index7_table li {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+.index7_table li a {
+  display: block;
+  width: 65%;
+  padding: 10px 0;
+  letter-spacing: -0.050rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.index7_table li i {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+.index7_table .table_btn {
+  float: right;
+  margin-top: 3em;
+}
+.index7_table .main_btn {
+  width: 175px;
+  height: 45px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index7_table .main_btn a {
+  margin-left: 20px;
+}
+/* footer */
+/* footer {
+  background: #000;
+  color: #fff;
+}
+.indexFooter {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 8em 0 2em 0;
+  margin: 0 16.5em;
+  border-bottom: 1px solid #808080;
+}
+.indexFooter img {
+  width: inherit;
+  height: inherit;
+  margin-bottom: 5em;
+}
+.indexFooter p {
+  font-size: 1.6rem;
+  margin-right: 1em;
+}
+.indexFooter span {
+  color: #808080;
+  margin-right: 0.625em;
+}
+.indexFooter .foot_leftText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.indexFooter .foot_leftText div {
+  display: flex;
+  margin-bottom: 1em;
+}
+.indexFooter .foot_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.indexFooter .foot_right button {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  padding: 1.250em 1.875em;
+  border-radius: 3.125em;
+  position: relative;
+}
+.indexFooter .foot_right button a::after {
+  content: '';
+  position: absolute;
+  top: 50%; right: 23%;
+  height: 1px;
+  width: 10px;
+  background: #fff;
+}
+.indexFooter .foot_right button a::before {
+  content: '';
+  position: absolute;
+  top: 50%; right: 23%;
+  height: 1px;
+  width: 10px;
+  background: #fff;
+  transform: translateY(-50%) rotate(90deg);
+}
+.indexFooter .foot_right .foot_rightText {
+  display: flex;
+}
+.indexFooter .foot_right .foot_rightText p {
+  font-weight: bold;
+}
+footer .indexFooter_under {
+  margin: 0 16.5em;
+
+}
+footer .indexFooter_under p {
+  font-size: 1.2rem;
+  color: #808080;
+  padding: 1em 0 5em 0;
+} */
+
+.target {
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="28" viewBox="0 0 13 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_3678" data-name="사각형 3678" width="13" height="13" transform="translate(-13613 -6970)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_9862" data-name="그룹 9862" transform="translate(13613 6970)">
+    <g id="마스크_그룹_94" data-name="마스크 그룹 94" clip-path="url(#clip-path)">
+      <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(-13612 -6969)">
+        <path id="패스_2995" data-name="패스 2995" d="M15.5,22.5v2.36a1.2,1.2,0,0,1-1.222,1.18H5.722A1.2,1.2,0,0,1,4.5,24.86V22.5" transform="translate(-4.5 -15.041)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="패스_2996" data-name="패스 2996" d="M10.5,15l3.14,2.951L16.779,15" transform="translate(-8.14 -10.666)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="패스_2997" data-name="패스 2997" d="M18,11.581V4.5" transform="translate(-12.5 -4.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="마스크_그룹_95" data-name="마스크 그룹 95" transform="translate(0 15)" clip-path="url(#clip-path)">
+      <g id="Icon_feather-download-2" data-name="Icon feather-download" transform="translate(-13612 -6969)">
+        <path id="패스_4430" data-name="패스 4430" d="M15.5,22.5v2.36a1.2,1.2,0,0,1-1.222,1.18H5.722A1.2,1.2,0,0,1,4.5,24.86V22.5" transform="translate(-4.5 -15.041)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="패스_4431" data-name="패스 4431" d="M10.5,15l3.14,2.951L16.779,15" transform="translate(-8.14 -10.666)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <path id="패스_4432" data-name="패스 4432" d="M18,11.581V4.5" transform="translate(-12.5 -4.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

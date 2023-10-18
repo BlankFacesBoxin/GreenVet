@@ -1,0 +1,168 @@
+#wrap {
+  max-width: 100%;
+  overflow: hidden;
+}
+.header header {
+  display: none;
+}
+.mobile_header {
+  display: block;
+}
+.mobile_headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  padding: 0 30px;
+  z-index: 10;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition: all 0.5s;
+}
+.mobile_headerTop .header_logo {
+  width: 118px;
+}
+/* 모바일 메뉴 */
+.header_mobile_menu {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.header .header_mobile_menu i:first-child {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transition: all 0.5s;
+}
+.header .header_mobile_menu i:nth-child(2) {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transition: all 0.5s;
+}
+.header .header_mobile_menu i:last-child {
+  position: absolute;
+  top: 90%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transition: all 0.5s;
+}
+.mobile_headerTop .header_mobile_menu.active i:first-child {
+  display: none;
+}
+.mobile_headerTop .header_mobile_menu.active i:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
+  width: 100%;
+  height: 2px;
+  background: #000;
+  transition: all 0.5s;
+}
+.mobile_headerTop .header_mobile_menu.active i:nth-child(3) {
+  position: absolute;
+  top: 50%;
+  transform: rotate(-45deg);
+  width: 100%;
+  height: 2px;
+  background: #000;
+  transition: all 0.5s;
+}
+.mobile_headerTop .header_mobile_menu.active i:last-child {
+  display: none;
+}
+/* 모바일 gnb */
+.mobile_header .header_gnb {
+  width: 100vw;
+  height: 90vh;
+  margin-top: 10vh;
+  padding: 0 40px 86px;
+  box-sizing: border-box;
+  display: none;
+  position: fixed;
+  z-index: 10;
+  transition: all 0.5s;
+}
+.mobile_header .header_gnb ul {
+  display: flex;
+  flex-direction: column;
+}
+.mobile_header .header_gnb ul li  {
+  border-bottom: 1px solid #ccc;
+}
+.mobile_header .header_gnb ul li a {
+  display: block;
+  padding: 20px 0;
+  color: #222;
+  width: 100%;
+  text-align: left;
+}
+.mobile_header .header_gnb .header_lang {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10%;
+  width: 90vw;
+  box-sizing: border-box;
+}
+.mobile_header .header_gnb .header_lang button {
+  color: #222;
+  border: 1px solid #222;
+}
+.mobile_header .header_gnb .header_lang span {
+  color: #222;
+}
+.mobile_header .header_gnb .header_lang span.active {
+  color: #88cbc9;
+}
+/* 모바일 헤더 스크롤 */
+.mobile_headerTop.header_scroll {
+  background: #fff;
+}
+.mobile_headerTop.header_scroll .header_logo img {
+  opacity: 0;
+}
+.mobile_headerTop.header_scroll .header_logo {
+  background: url(/img/main/GREENVETHeaderScroll.png) no-repeat center/cover;
+}
+.mobile_headerTop.header_scroll .header_mobile_menu i {
+  background: #222;
+}
+/* 모바일 메뉴 버튼 클릭 */
+.mobile_header .header_gnb.onClass {
+  display: block;
+  background: #fff;
+  transition: all 0.5s;
+}
+
+/* footer */
+#index8 {
+  height: 100%;
+}
+#index8 p {
+  font-size: 1.750rem;
+}
+.indexFooter {
+  flex-direction: column;
+  margin: 0 8em;
+}
+.indexFooter .foot_leftText {
+  flex-direction: column;
+}
+.indexFooter .foot_leftText div {
+  flex-direction: column;
+}
+.indexFooter .foot_right .foot_rightText {
+  display: none;
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="85" viewBox="0 0 60 85">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2963" data-name="사각형 2963" width="60" height="85" transform="translate(-16001 -2306)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-1.786" y1="2.786" x2="3.299" y2="-2.299" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ed1b2f"/>
+      <stop offset="1" stop-color="#ffd059"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-12.793" y1="2.505" x2="30.063" y2="-3.96" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-7.665" y1="1.732" x2="35.192" y2="-4.734" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-1.511" y1="13.829" x2="4.954" y2="-29.027" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-0.726" y1="8.627" x2="5.739" y2="-34.23" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="-10.249" y1="3.005" x2="32.608" y2="-6.982" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="-10.207" y1="2.996" x2="32.648" y2="-6.992" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="-2.658" y1="14.055" x2="7.328" y2="-28.802" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="-1.341" y1="8.401" x2="8.646" y2="-34.454" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="0.035" y1="0.986" x2="1.893" y2="-0.913" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="vision-img01" transform="translate(16001 2306)" clip-path="url(#clip-path)">
+    <path id="패스_2980" data-name="패스 2980" d="M43.573,19.981a9.99,9.99,0,1,1,9.988-9.993,10,10,0,0,1-9.988,9.993Zm0-17.615A7.622,7.622,0,1,0,51.2,9.988,7.633,7.633,0,0,0,43.573,2.366Z" transform="translate(-16014.562 -2306)" fill="url(#linear-gradient)"/>
+    <rect id="사각형_2955" data-name="사각형 2955" width="2.371" height="15.715" transform="matrix(1, -0.007, 0.007, 1, -15972.335, -2271.974)" fill="url(#linear-gradient-2)"/>
+    <rect id="사각형_2956" data-name="사각형 2956" width="2.371" height="15.715" transform="matrix(1, -0.007, 0.007, 1, -15972.132, -2242.919)" fill="url(#linear-gradient-3)"/>
+    <rect id="사각형_2957" data-name="사각형 2957" width="15.715" height="2.371" transform="translate(-15963.386 -2251.58) rotate(-0.42)" fill="url(#linear-gradient-4)"/>
+    <rect id="사각형_2958" data-name="사각형 2958" width="15.715" height="2.371" transform="translate(-15994.327 -2251.378) rotate(-0.42)" fill="url(#linear-gradient-5)"/>
+    <rect id="사각형_2959" data-name="사각형 2959" width="2.371" height="10.173" transform="matrix(0.702, -0.712, 0.712, 0.702, -15967.721, -2245.384)" fill="url(#linear-gradient-6)"/>
+    <rect id="사각형_2960" data-name="사각형 2960" width="2.371" height="10.173" transform="matrix(0.702, -0.712, 0.712, 0.702, -15983.169, -2260.497)" fill="url(#linear-gradient-7)"/>
+    <rect id="사각형_2961" data-name="사각형 2961" width="10.173" height="2.371" transform="matrix(0.702, -0.712, 0.712, 0.702, -15967.801, -2255.08)" fill="url(#linear-gradient-8)"/>
+    <rect id="사각형_2962" data-name="사각형 2962" width="10.173" height="2.371" transform="translate(-15983.014 -2239.748) rotate(-45.4)" fill="url(#linear-gradient-9)"/>
+    <path id="패스_2981" data-name="패스 2981" d="M38.719,107.126l-.863-2.569,1.227-.452c10.966-4.03,18.334-14.9,18.334-27.046,0-15.819-12.294-28.688-27.406-28.688S2.6,61.241,2.6,77.06c0,12.147,7.368,23.01,18.34,27.046l1.227.452-.863,2.569-1.227-.452C8.069,102.258,0,90.357,0,77.06,0,59.739,13.459,45.65,30.012,45.65S60.018,59.739,60.018,77.06c0,13.3-8.063,25.2-20.071,29.615Z" transform="translate(-16001 -2328.818)" fill="url(#linear-gradient-10)"/>
+  </g>
+</svg>

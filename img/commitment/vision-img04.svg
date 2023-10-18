@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="85" viewBox="0 0 60 85">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2966" data-name="사각형 2966" width="60" height="85" transform="translate(-14991 -2306)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-1.535" y1="2.535" x2="1.5" y2="-0.499" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#009450"/>
+      <stop offset="1" stop-color="#8fc73e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.126" y1="0.893" x2="1.236" y2="-0.241" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-0.721" y1="1.036" x2="4.606" y2="-1.304" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="-1.447" y1="1.356" x2="3.88" y2="-0.985" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-1.287" y1="2.288" x2="2.935" y2="-1.935" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="vision-img04" transform="translate(14991 2306)" clip-path="url(#clip-path)">
+    <path id="패스_2988" data-name="패스 2988" d="M44.853,22.541A11.27,11.27,0,1,1,56.121,11.267,11.284,11.284,0,0,1,44.853,22.541Zm0-19.872a8.6,8.6,0,1,0,8.6,8.6,8.611,8.611,0,0,0-8.6-8.6Z" transform="translate(-15006.067 -2305.841)" fill="url(#linear-gradient)"/>
+    <path id="패스_2989" data-name="패스 2989" d="M38.988,104.786l-.869-2.471,1.236-.434a27.6,27.6,0,1,0-18.275,0l1.236.434-.869,2.471-1.236-.434a30.217,30.217,0,1,1,20.013,0Z" transform="translate(-14991.434 -2325.734)" fill="url(#linear-gradient-2)"/>
+    <path id="패스_2990" data-name="패스 2990" d="M38.482,112.087H35.807V97.908A4.344,4.344,0,0,0,33.144,93.9l-3.21-1.354A7.011,7.011,0,0,1,25.64,86.07V82.86h2.674v3.21a4.344,4.344,0,0,0,2.663,4.012l3.21,1.354a7.011,7.011,0,0,1,4.294,6.472Z" transform="translate(-15002.607 -2341.949)" fill="url(#linear-gradient-3)"/>
+    <path id="패스_2991" data-name="패스 2991" d="M61.384,112.087H58.71V97.908a7.007,7.007,0,0,1,4.3-6.472l3.2-1.354a4.338,4.338,0,0,0,2.663-4.012V82.86h2.674v3.21a7.007,7.007,0,0,1-4.3,6.472l-3.2,1.354a4.344,4.344,0,0,0-2.663,4.012Z" transform="translate(-15017.019 -2341.949)" fill="url(#linear-gradient-4)"/>
+    <path id="패스_2992" data-name="패스 2992" d="M47.3,80.069a8.1,8.1,0,1,1,8.1-8.1,8.109,8.109,0,0,1-8.1,8.1Zm0-13.524a5.428,5.428,0,1,0,5.428,5.428A5.434,5.434,0,0,0,47.3,66.544Z" transform="translate(-15008.517 -2333.674)" fill="url(#linear-gradient-5)"/>
+  </g>
+</svg>

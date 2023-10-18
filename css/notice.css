@@ -1,0 +1,106 @@
+/* title */
+html {
+  background: #f7f7f7;
+}
+.info_title {
+  width: 100%;
+  height: 65vh;
+  background: url(../img/notice/visualBoard.jpg) no-repeat center/cover;
+  position: relative;
+}
+.info_title .title_text {
+  position: absolute;
+  left: 30em; bottom: 10em;
+}
+.info_title .title_text span {
+  color: #88CBC9;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.info_title .title_text h2 {
+  font-size: 8.5rem;
+  color: #fff;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  line-height: 1;
+  margin: 0.118em 0;
+}
+.info_title .title_text p {
+  font-size: 2rem;
+  color: #fff;
+}
+ /* tab_menu */
+ .tabMenu {
+  margin: 10em 0;
+ }
+ .tabMenu nav {
+  padding: 0 290px;
+ }
+ .tabMenu nav ul {
+  display: flex;
+  justify-content: flex-start;
+ }
+ .tabMenu nav ul li {
+  font-size: 1.6rem;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-bottom: 1px solid #dcdcdc;
+ }
+ .tabMenu nav ul .add_tab {
+  color: #88CBC9;
+  position: relative;
+ }
+ .tabMenu nav ul .add_tab::after {
+  content: '';
+  position: absolute;
+  bottom: -1px; left: 0; right: 0;
+  height: 2px;
+  background: #88CBC9
+ }
+
+ /* notice */
+ .main_tab {
+  padding: 0 29em;
+ }
+ .main_tab > div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  align-items: center;
+  background: #fff;
+  padding: 35px;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom: 1em;
+ }
+ .main_tab > div:last-child {
+  margin-bottom: 15em;
+ }
+ .main_tab div .date {
+  font-size: 1.6rem;
+  color: #a5a5a5;
+ }
+ .main_tab div .area span {
+  font-size: 1.6rem;
+  color: #88CBC9;
+  border: 1px solid;
+  padding: 3px 15px;
+  border-radius: 25px;
+ }
+ .main_tab div .head {
+  font-size: 2.3rem;
+  color: #222;
+ }
+ .main_tab > div:hover {
+  background: #88CBC9;
+  transition: all 0.5s;
+ }
+ .main_tab > div:hover .date {
+  color: #fff
+ }
+ .main_tab > div:hover .head {
+  color: #fff
+ }
+ .main_tab > div:hover .area {
+  color: #fff
+ }

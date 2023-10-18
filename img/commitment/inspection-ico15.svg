@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_3141" data-name="사각형 3141" width="59.004" height="80.551" transform="translate(0 0)" fill="none" stroke="#222" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="inspection-ico15" transform="translate(83 892)">
+    <rect id="사각형_3036" data-name="사각형 3036" width="100" height="100" transform="translate(-83 -892)" fill="none"/>
+    <g id="그룹_9036" data-name="그룹 9036" transform="translate(-63 -882.847)" clip-path="url(#clip-path)">
+      <path id="패스_3149" data-name="패스 3149" d="M32.36,19.254c.094-.058.2-.117.294-.176-.24-.035-.482-.069-.739-.091C32.063,19.077,32.215,19.16,32.36,19.254Z" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3150" data-name="패스 3150" d="M57,57.5c-3-9-.353-11.086-2-21a25.377,25.377,0,0,0-5.431-12.463c-.137,0-.275.008-.411.016a24.554,24.554,0,0,0-8.654,2.19c-.539.245-1.055.493-1.518.739l2.333,4a5,5,0,1,1-8.638,5.038l-3.527-6.046A7.026,7.026,0,0,0,23.107,26.5H21.7a25.041,25.041,0,0,0-1.2,5.777A5.01,5.01,0,0,1,15.5,36.991c-.093,0-.187,0-.281-.008a4.992,4.992,0,0,1-4.716-5.243,30.083,30.083,0,0,1,.78-5.24H9.412C4.144,33.6,4.532,42.971,6,48.5c2.435,9.169,13,30,32,31S60,66.5,57,57.5Z" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3151" data-name="패스 3151" d="M41.705,11.981l.937-5.312a3.5,3.5,0,1,0-6.894-1.216l-.684,3.88Q34.3,9.186,33.5,9.09V4.5a3.5,3.5,0,0,0-7,0V9.328q-.771.154-1.5.367l-.748-4.242a3.5,3.5,0,1,0-6.893,1.216l1.172,6.647A19.881,19.881,0,0,0,15.687,16.5a26.778,26.778,0,0,0-3.539,7.011c-.345,1.012-.63,2.014-.86,2.989a30.011,30.011,0,0,0-.781,5.24,4.992,4.992,0,0,0,4.716,5.243c.094,0,.188.008.281.008a5.008,5.008,0,0,0,4.988-4.713A25.006,25.006,0,0,1,21.7,26.5c1.168-3.424,3.436-7.164,7.8-7.516a14.534,14.534,0,0,1,2.419,0c.257.022.5.056.739.091A36.824,36.824,0,0,1,36.2,17.21,35.218,35.218,0,0,1,44.779,14.5,18.194,18.194,0,0,0,41.705,11.981Z" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3154" data-name="패스 3154" d="M16,42.5s0,12,13,22" fill="none" stroke="#00abe3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3155" data-name="패스 3155" d="M17.585,49.644A33.481,33.481,0,0,0,16,57.5" fill="none" stroke="#00abe3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="선_291" data-name="선 291" x2="5.213" transform="translate(20.215 54.951)" fill="none" stroke="#00abe3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3156" data-name="패스 3156" d="M24.345,60.3a15.5,15.5,0,0,0,0,5.784" fill="none" stroke="#00abe3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3157" data-name="패스 3157" d="M39.686,26.624S50,34.5,48,47.5" fill="none" stroke="#00abe3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3158" data-name="패스 3158" d="M46.372,35.458S46.447,38.5,41.724,42" fill="none" stroke="#00abe3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3159" data-name="패스 3159" d="M48.188,42.5A13.95,13.95,0,0,1,52,44.5" fill="none" stroke="#00abe3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3152" data-name="패스 3152" d="M50.5,14a32.907,32.907,0,0,0-5.721.5,35.2,35.2,0,0,0-8.581,2.7,37.04,37.04,0,0,0-3.544,1.869c-.1.059-.2.118-.294.176-.145-.094-.3-.177-.446-.267a14.521,14.521,0,0,0-2.418,0c-4.363.352-6.631,4.092-7.8,7.516h1.411a7.026,7.026,0,0,1,6.047,3.473l3.527,6.046a5,5,0,0,0,8.638-5.038l-2.333-4c.463-.246.979-.494,1.518-.739a24.554,24.554,0,0,1,8.654-2.19c.136-.008.274-.011.411-.016.31-.013.614-.037.931-.037a5,5,0,0,0,0-10Z" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_3153" data-name="패스 3153" d="M1,21.5a5,5,0,0,0,5,5h5.287c.231-.975.516-1.977.861-2.989A26.748,26.748,0,0,1,15.687,16.5H6A5,5,0,0,0,1,21.5Z" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

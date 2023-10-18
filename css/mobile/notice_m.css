@@ -1,0 +1,30 @@
+.info_title {
+  background-position-x: 80%;
+}
+
+.info_title .title_text {
+  left: 32px;
+}
+.info_title .title_text h2 {
+  font-size: 46px;
+}
+/* tab */
+.tabMenu nav {
+  padding: 0 32px;
+}
+.tabMenu nav ul {
+  justify-content: center;
+}
+.tabMenu nav ul li {
+  padding: 5px 15px;
+}
+.main_tab {
+  padding: 0 32px;
+}
+/* main */
+.main_tab > div {
+  padding: 0;
+  flex-direction: column;
+  gap: 10px;
+  align-items: normal;
+}

@@ -1,0 +1,425 @@
+.info_wrap {
+ font-size: 10px;
+ color: #222;
+ /* font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif; */
+}
+.info_title {
+  width: 100%;
+  height: 65vh;
+  background: url(../img/info/visualCompany.jpg) no-repeat center/cover;
+  position: relative;
+}
+.info_title .title_text {
+  position: absolute;
+  left: 30em; bottom: 10em;
+}
+.info_title .title_text span {
+  color: #88CBC9;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.info_title .title_text h2 {
+  font-size: 8.5rem;
+  color: #fff;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  line-height: 1;
+  margin: 0.118em 0;
+}
+.info_title .title_text p {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* mainBox */
+.box .box_title span {
+  font-size: 1.6rem;
+  color: #00ABE3;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+}
+.box .box_title h2 {
+  font-size: 3.8rem;
+  padding-bottom: 1.316em;
+  position: relative;
+}
+.box .box_title h2::after {
+  content: '';
+  position: absolute;
+  background: #00ABE3;
+  height: 1px;
+  left: 0; right: 0; bottom: 0;
+}
+.box .box_text h4 {
+  font-size: 2.2rem;
+  margin: 1.364em 0 0.455em 0;
+}
+.box .box_text h4 span {
+  color: #00ABE3;
+}
+.box .box_text p {
+  font-size: 1.6rem;
+}
+.box .box_text p:last-child {
+  font-size: 1.4rem;
+  color: #000;
+  margin-top: 3.571em;
+  font-weight: 500;
+}
+.box .box_text p:last-child strong {
+  font-size: 2.2rem;
+  margin-left: 0.727em;
+}
+
+/* 1 */
+.info_first {
+  box-sizing: border-box;
+  background: #f7f7f7;
+}
+.info_firstArea {
+  padding: 12em 30em 14em 30em;
+}
+/* 2 */
+.box_text2 {
+  margin-top: 50px;
+}
+.box_text2 h5 {
+ font-size: 2.2rem;
+}
+.info_secound .box_text .box_text2 p {
+  margin-top: 0;
+}
+.box_text2-under {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.box_text2-under div {
+  position: relative;
+  padding-top: 20px;
+  width: 49%;
+}
+.box_text2-under div::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 1px;
+}
+.box_text2-under p {
+  line-height: 2;
+}
+.box_text2-under p span {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.info_secoundArea {
+  padding: 14em 30em;
+}
+.parallex_img {
+  width: 100%;
+  height: 600px;
+  background: url(../img/info/business-img01.jpg) no-repeat center/cover;
+  background-position-y: 30%;
+}
+/* 33 */
+.info_third {
+  height: 50vh;
+  margin: 10em;
+  margin-bottom: 25em;
+  padding: 0 18em;
+}
+.info_third h4 {
+  font-size: 2.2rem;
+  margin-bottom: 2em;
+}
+.third_box {
+  display: flex;
+  justify-content: space-between;
+}
+.third_box img {
+  width: 60px;
+  height: 85px;
+}
+.third_box div {
+  padding: 4em;
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  width: calc(25% - 10em);
+}
+.third_box div h6 {
+  font-size: 3rem;
+  margin-top: 0.4em;
+  letter-spacing: -0.05em;
+}
+.third_box div span {
+  display: block;
+  font-size: 1.8rem;
+  margin: 0.778em 0 1.111em 0;
+  letter-spacing: -0.05em;
+  color: #808080;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  font-weight: 500;
+}
+.third_box div p {
+  font-size: 1.6rem;
+  letter-spacing: -0.05em;
+}
+
+/* 4 */
+.info_table {
+  height: 100%;
+  padding: 14em 29em;
+  background: #f7f7f7;
+}
+.main_ul-li {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.main_ul-li::after {
+  content: "";
+  height: 100%;
+  width: 4px;
+  border-radius: 6px;
+  position: absolute;
+  top: 12px;
+  left: 278px;
+  background: #ccc;
+}
+.main_ul-li + li {
+  padding-top: 16em;
+}
+.main_ul-li:first-child {
+  margin-top: 3em;
+}
+.main_ul-li > p {
+  font-size: 2.2rem;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  width: 270px;
+  position: relative;
+}
+.main_ul-li > p::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 5px solid #00ABE3;
+  position: absolute;
+  top: 2px;
+  left: 100%;
+  box-sizing: border-box;
+  border-radius: 100%;
+  z-index: 5;
+}
+.main_ul-li > p::before {
+  content: "";
+  width: 144px;
+  height: 2px;
+  background-color: #00ABE3;
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+.main_ul-li #year {
+  color: #00ABE3;
+}
+.main_ul-li .detail_ul {
+  width: 91.5em;
+}
+.detail_ul li {
+  display: flex;
+  gap: 42px;
+  font-size: 1.8rem;
+}
+.detail_ul li + li {
+  margin-top: 10px;
+}
+.detail_ul li .date {
+  font-size: 1.6rem;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  color: #114492;
+  width: 8.438em;
+  margin-top: 5px;
+  position: relative;
+  padding-left: 1.889em;
+}
+.detail_ul li .date::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #114492;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.desc p:nth-child(2) {
+  margin-top: 10px;
+}
+
+/* 4 */
+.info_fours {
+  padding: 140px 290px;
+}
+.info_fours.box .box_text p {
+  margin-top: 10px;
+}
+.info_foursIMG {
+  display: flex;
+  margin: 5em 0 8em;
+}
+.symbol_area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.symbol_area div {
+  width: 30%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  position: relative;
+  padding-top: 1.250em;
+  border-top: 5px solid;
+}
+.symbol_area div:first-child span {
+  color: #88CBC9;
+}
+.symbol_area div:first-child {
+  border-color: #88CBC9;
+}
+.symbol_area div:nth-child(2) span {
+  color: #00ABE3;
+}
+.symbol_area div:nth-child(2) {
+  border-color: #00ABE3;
+}
+.symbol_area div:last-child span {
+  color: #114492;
+}
+.symbol_area div:last-child {
+  border-color: #114492;
+}
+.info_foursDownload .box_text {
+  margin: 5em 0 3em;
+}
+.downLogo {
+  width: 100%;
+  height: 312px;
+  background: url(../img/info/ci-back.jpg);
+  border: 1px solid #b3b3b3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downLogo img {
+  width: initial;
+  height: initial;
+}
+.downloadBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2em;
+}
+.downloadBtn a {
+  border-radius: 28px;
+  border: 1px solid #222;
+  background-color: #fff;
+  padding: 10px 36px;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'ITC Avant Garde Gothic Std Demi', sans-serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.downloadBtn a:first-child {
+  margin-right: 20px;
+}
+.downloadBtn a:hover {
+  background: #222;
+  color: #fff;
+}
+.downloadBtn a:hover i {
+  filter: opacity(0.4) drop-shadow(0 0 0 #fff);
+}
+
+.downloadBtn i {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: url(../img/info/ico-download.svg);
+}
+
+/* 5 */
+.info_five {
+  padding: 140px 0;
+  background: #f7f7f7;
+}
+.info_five .info_fiveCover {
+  padding: 0 290px;
+}
+.info_five .info_fiveCover .box_title h2 {
+  padding-bottom: 2em;
+}
+/* .info_five .info_fiveCover */ body .box_title .fiveTitle_span {
+  position: absolute;
+  bottom: 10px; left: 0;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+  font-size: 2rem;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.info_five .box_text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.info_five .box_text img {
+  width: inherit;
+  height: 108px;
+}
+#para_2 {
+  background: url(../img/info/family-img01.jpg) no-repeat center/cover;
+  background-position-y: 30%;
+}
+.info_five .box_text3 {
+  padding: 0 290px;
+}
+.info_five .box_text3 h4 {
+  font-size: 2.2rem;
+  margin-top: 4em;
+}
+.info_five .box_text3 p {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-top: 0.8em;
+}
+/* 6 */
+.info_six {
+  padding: 14em 29em
+}
+.info_six .box_text {
+  margin: 3em 0;
+}
+.info_six .box_text ul {
+  display: flex;
+  margin-top: 1em;
+}
+.info_six .box_text ul li {
+  font-size: 1.6rem;
+}
+.info_six .box_text ul li span {
+  color: #808080;
+  margin-right: 10px;
+}
+.info_six .box_text ul li + li {
+  margin-left: 1.5em;
+}
+.info_six .info_sixDetail1 {
+  margin-bottom: 10em;
+}
+.info_sixDetail1 .box_title h2 {
+  padding-bottom: 3em;
+}

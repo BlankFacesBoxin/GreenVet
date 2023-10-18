@@ -1,0 +1,163 @@
+html {
+  font-size: 9px;
+}
+.info_title .title_text {
+  left: 32px;
+}
+.info_title .title_text h2 {
+  font-size: 46px;
+}
+.comm_tabMenu nav {
+  padding: 0 32px;
+}
+.comm_tabMenu nav ul {
+  justify-content: space-between;
+}
+.comm_tabMenu nav ul li {
+  padding: 10px 15px;
+}
+/* 1tab */
+.main_item01 ,.item01.tabMenuDetail, .main_item02,.main_item03, .main_item04, .main_item05, .main_item06, .main_item07 {
+  padding: 0 32px;
+}
+.main_itemDetail01 {
+  flex-direction: column;
+  gap: 50px;
+}
+.parallex_img {
+  background-position-y: 20%;
+  background-size: 150%;
+  height: 300px;
+}
+.parallex_img p {
+  padding-left: 32px;
+}
+.main_itemDetail01 .main_itemBackground {
+  width: 100%;
+  height: 260px;
+}
+.main_itemDetail01 .main_itemText {
+  width: 100%;
+}
+.main_item02 .main_itemImg {
+  flex-direction: column;
+  gap: 30px;
+}
+.main_item02 .main_itemImg div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_item02 .main_itemImg div .tit {
+  font-size: 18px;
+}
+.main_item02 .main_itemImg div .txt {
+  font-size: 16px;
+}
+.main_item03Detail {
+  flex-direction: column;
+  gap: 30px;
+} 
+.main_item03Detail .right {
+  width: 100%;
+}
+.main_item03Detail .right_btn {
+  flex-direction: column;
+  gap: 5px;
+}
+.main_item03Detail .right .right_main .right_area {
+  flex-direction: column;
+  gap: 40px;
+}
+.main_item03Detail .right .right_top {
+  width: 100%;
+}
+.btn a {
+  width: 100%;
+}
+.main_item03Detail .right_area02 .right_top02 .img02 {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 175px;
+}
+.main_item03Detail .right_area02 .right_top02 {
+  display: block;
+}
+.main_item04 {
+  margin: 100px 0;
+}
+.main_item04 .item04Map {
+  flex-direction: column;
+  gap: 50px;
+}
+.main_item04 .item04Map img {
+  width: 100%;
+}
+.item04Detail {
+  flex-direction: column;
+}
+.item04Detail > div {
+  width: 100%;
+  flex-direction: column;
+}
+.main_item05 {
+  margin: 100px 0;
+}
+.item05_img .detail_img .detail_flex {
+  gap: 0;
+  row-gap: 20px;
+  justify-content: space-between;    
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item05_img .detail_img .detail_flex div {
+  width: calc(50% - 8px);
+}
+.item06-1Img_area {
+  flex-direction: column;
+}
+.main_item07 div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  box-sizing: border-box;
+}
+.main_item07 img {
+  width: calc(50% - 24.5px);
+}
+/* 2tab */
+.item01.tabMenuDetail {
+  margin: 100px 0;
+}
+.secound_tab .item02 {
+  padding: 50px 32px;
+  flex-direction: column;
+  gap: 30px;
+}
+.secound_tab .item02 div:last-child .btn {
+  position: static;
+}
+.secound_tab .item02 .tab2_lastDiv {
+  width: 100%;
+}
+/* 3tab */
+.third_tab .third_img {
+  flex-direction: column;
+}
+.third_tab .third_img > div {
+  width: 100%;
+}
+.third_tab .third_img > div div {
+  width: 50%;
+}
+.third_tab .third_img > div div img {
+  width: 100%;
+}
+.third_tab .item02_text {
+  padding: 100px 32px;
+}

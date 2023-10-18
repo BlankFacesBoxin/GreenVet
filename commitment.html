@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREENVET</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css" />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/commitment.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link
+    rel="stylesheet"
+    href="css/mobile/header_m.css"
+    media="screen and (max-width: 768px)"
+  />
+  <link
+    rel="stylesheet"
+    href="css/mobile/commitment_m.css"
+    media="screen and (max-width: 768px)"
+  />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/commitment.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <section class="header">
+        <header>
+          <div class="header_logo">
+            <a href="index.html"
+              ><img src="img/main/GREENVET.png" alt="logo"
+            /></a>
+          </div>
+          <div class="header_gnb">
+            <ul>
+              <li>
+                <a href="info.html">회사소개</a>
+                <ul>
+                  <li><a href="info.html">CEO인사말</a></li>
+                  <li><a href="info.html">미션/비전</a></li>
+                  <li><a href="info.html">연혁</a></li>
+                  <li><a href="info.html">CI소개</a></li>
+                  <li><a href="info.html">가족사 소개</a></li>
+                  <li><a href="info.html">오시는 길</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="commitment.html" id="thisPage">사업소개</a>
+                <ul>
+                  <li><a href="commitment.html">동물진단검사</a></li>
+                  <li><a href="commitment.html">영양관리제품</a></li>
+                  <li><a href="commitment.html">연구소</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="notice.html">공지사항</a>
+                <ul>
+                  <li><a href="notice.html">공지사항</a></li>
+                  <li><a href="notice.html">홍보사항</a></li>
+                  <li><a href="notice.html">공개 자료실</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="header_lang">
+            <button>RECRUTING</button>
+            <span class="active">KR</span>
+            <span>EN</span>
+          </div>
+          <div class="header_mobile_menu">
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
+        </header>
+        <div class="mobile_header">
+          <div class="mobile_headerTop">
+            <div class="header_logo">
+              <a href="index.html"><img src="img/main/GREENVET.png" alt="logo"></a>
+            </div>
+            <div class="header_mobile_menu">
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+          <div class="header_gnb">
+            <ul>
+              <li><a href="info.html">회사소개</a></li>
+              <li><a href="commitment.html">사업소개</a></li>
+              <li><a href="notice.html">공지사항</a></li>
+            </ul>
+            <div class="header_lang">
+              <button>RECRUTING</button>
+              <div class="lang_span">
+                <span class="active">KR</span>
+                <span>EN</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="comm_wrap">
+        <div class="info_title">
+          <div class="title_text">
+            <span>사업소개</span>
+            <h2>Great<br />Commitement</h2>
+            <p>
+              생명에 대한 존중을 바탕으로<br />
+              새로운 기회를 창출합니다
+            </p>
+          </div>
+        </div>
+        <div class="comm_tabMenu">
+          <nav>
+            <ul>
+              <li class="add_tab">동물진단검사</li>
+              <li>영양관리제품</li>
+              <li>연구소</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="first_tab">
+          <div class="main_area01">
+            <div class="main_item01">
+              <div class="main_text">
+                <h2>동물진단검사</h2>
+                <span>Reference Lab</span>
+              </div>
+              <div class="main_itemDetail01">
+                <div class="main_itemBackground"></div>
+                <div class="main_itemText">
+                  <h4>
+                    국내 최고의<br>
+                    진단검사 서비스를 제공합니다
+                  </h4>
+                  <ul>
+                    <li>국내 반려동물 업계 최고 수준의 LAB 시설</li>
+                    <li>국내 유일 콜드 체인 물류 시스템 수거 서비스</li>
+                    <li>전문분야 전공수의사 학술 상담 서비스</li>
+                    <li>EMR연동 LIS, 원격 판독시스템 등 디지털 솔루션 서비스</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="parallex_img" id="first_para">
+              <p>검사서비스 안내</p>
+            </div>
+            <div class="main_item02">
+              <div class="main_itemText2">
+                <p>
+                  반려동물 전문 Reference Lab 그린벳은 전국 동물병원에서 의뢰하는 검사에 대해 수거부터 검사결과 제공까지 모든 업무를 통합적으로 수행합니다.<br>
+                  전국 콜드체인 바이오 물류 네트워크를 이용한 수거, 최고의 장비와 검사시설, 각 분야별 수의사들의 학술 서비스 제공 등 최고의 서비스를 제공합니다.
+                </p>
+              </div>
+              <div class="main_itemImg">
+                <div>
+                  <img src="img/commitment/service-ico01.svg" alt="">
+                  <p class="tit">검사 의뢰 접수</p>
+                  <p class="txt">동물병원 검체 채취 및 검사의뢰</p>
+                </div>
+                <div>
+                  <img src="img/commitment/service-ico02.svg" alt="">
+                  <p class="tit">검체 수거</p>
+                  <p class="txt">검체 수거 및 운송</p>
+                </div>
+                <div>
+                  <img src="img/commitment/service-ico03.svg" alt="">
+                  <p class="tit">검사 분석</p>
+                  <p class="txt">각 전문 검사 파트별 검사 수행</p>
+                </div>
+                <div>
+                  <img src="img/commitment/service-ico04.svg" alt="">
+                  <p class="tit">결과 보고</p>
+                  <p class="txt">웹 기반 실시간 결과 보고</p>
+                </div>
+              </div>
+            </div>
+            <div class="parallex_img" id="secound_para">
+              <p>검사의뢰</p>
+            </div>
+            <div class="main_item03">
+              <div class="main_item03Detail">
+                <div class="left">
+                  <h6>진단검사</h6>
+                </div>
+                <div class="right">
+                  <div class="right_head">
+                    <p>
+                      일반혈액검사는 혈액 속의 정보를 분석하여 많은 질환의 진단과 치료 예후, 추적 관찰까지 다양한 상태를 관찰 할 수 있습니다.<br>
+                      혈액은 몸을 구성하는 가장 기본적인 요소로, 전반적인 건강상태를 확인 할 수 있으며 채취가 간단하여 기본 검사로 이용합니다.
+                    </p>
+                  </div>
+                  <div class="right_main">
+                    <div class="right_area">
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico01.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>혈액학 검사</p>
+                          <p>혈액 속의 혈구 정보를 분석하여 혈구 건강 상태를 체크합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico02.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>혈액화학 검사</p>
+                          <p>혈액 속의 혈청 정보를 분석하여 각 장기들의 건강 상태를 체크합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right_area">
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico03.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>뇨화학 검사</p>
+                          <p>뇨의 물리적 검사, 화학적 검사를 통해 요로계, 내분비, 대사질환 등을 체크합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico03.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>내분비학 검사</p>
+                          <p>호르몬 대사 등의 생리 기능을 조절하는 호르몬을 체크합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main_item03Detail">
+                <div class="left">
+                  <h6>특수검사</h6>
+                </div>
+                <div class="right">
+                  <div class="right_head">
+                    <p>
+                      특수검사는 종양, 염증, 면역 매개성 질환 등의 감별을 위한 정밀 검사입니다. 질병의 확진 뿐 아니라 유전자나 단백질 수준의 변화를 분석하여<br>
+                      질병의 원인이나 감염체를 규명하기도 하고 개별 환자에 맞는 효과적인 치료 방향을 제시해 줍니다.
+                    </p>
+                  </div>
+                  <div class="right_main">
+                    <div class="right_area">
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico05.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>조직 검사</p>
+                          <p>질병이 발생하였거나 발생한 것으로 의심되는 부위의 조직을 떼어내어 현미경적 소견에 따라 진단합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico06.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>세포 검사</p>
+                          <p>질병이 발생하였거나 발생한 것으로 의심되는 부위의 세포를 흡인하여 세포형태학적 소견에 따라 진단합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right_area">
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico07.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>감염병 검사</p>
+                          <p>검체에서 핵산(DNA, RNA)을 추출 한 후 PCR로 증폭하여 질병 감염여부를 확인합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico08.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>면역 검사</p>
+                          <p>백신 접종 이후 생성된 항체의 역가를 확인합니다. 면역계의 이상으로 인한 자가면역 질환을 진단합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="right_area">
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico09.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>알레르기 검사</p>
+                          <p>알레르기 질환의 원인이 될 수 있는 항원에 대한 특이 항체를 확인합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="right_top">
+                        <div class="img">
+                          <img src="img/commitment/inspection-ico10.svg" alt="">
+                        </div>
+                        <div class="txt">
+                          <p>미생물 검사</p>
+                          <p>동물에서 채취된 검체에서 병원성 미생물을 분리하고 동정하며, 적절한 치료를 위해 항생제 감수성 검사를 시행합니다.</p>
+                          <div class="btn">
+                            <a href="">
+                              <i></i>
+                              자세히보기
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main_item03Detail">
+                <div class="left">
+                  <h6>건강검진</h6>
+                </div>
+                <div class="right">
+                  <div class="right_head">
+                    <p>
+                      건강검진은 질환의 조기 진단 및 정기적인 건강상태 확인을 위해 주기적으로 해야하는 검사입니다.<br>
+                      연 1~2회 건강검진을 통해 질병이 발생하기 전 예방 하거나, 조기에 질병을 발견하여 빠르게 치료 할 수 있도록 도움을 주는 검사입니다.
+                    </p>
+                  </div>
+                  <div class="right_main">
+                    <div class="right_area02">
+                      <div class="right_top02">
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico11.svg" alt="혈액화학">
+                          <p>혈액화학</p>
+                        </div>
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico12.svg" alt="혈액학">
+                          <p>혈액학</p>
+                        </div>
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico13.svg" alt="요검사">
+                          <p>요검사</p>
+                        </div>
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico14.svg" alt="신장 질병 조기 검사">
+                          <p>신장 질병 조기 검사</p>
+                        </div>
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico15.svg" alt="심장 질병 조기 검사">
+                          <p>신장 질병 조기 검사</p>
+                        </div>
+                      </div>
+                      <div class="right_top02">
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico16.svg" alt="갑상선 검사">
+                          <p>갑상선 검사</p>
+                        </div>
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico17.svg" alt="췌장 질병 조기 검사">
+                          <p>췌장 질병 조기 검사</p>
+                        </div>
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico18.svg" alt="염증 조기 검사">
+                          <p>염증 조기 검사</p>
+                        </div>
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico19.svg" alt="분변 검사">
+                          <p>분변 검사</p>
+                        </div>
+                        <div class="img02">
+                          <img src="img/commitment/inspection-ico20.svg" alt="X-ray 검사">
+                          <p>X-ray 검사</p>
+                        </div>
+                      </div>
+                      <div class="right_btn">
+                        <div class="btn">
+                          <a href="">
+                            <i></i>
+                            종합검사
+                          </a>
+                        </div>
+                        <div class="btn">
+                          <a href="">
+                            <i></i>
+                            자세히보기
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="parallex_img" id="third_para">
+              <p>검체 수거 및 <br> 검체 운송</p>
+            </div>
+            <div class="main_item04">
+              <div class="main_item04Header">
+                <h4>전국 영업망 구축</h4>
+                <p>11개 지점의 영업망을 통해 전국 동물병원에 영업 방문이 가능한 네트워크를 만들었습니다.</p>
+              </div>
+              <div class="item04Map">
+                <img src="img/commitment/network-img01.png" alt="영업망 지도">
+                <img src="img/commitment/network-img02.png" alt="영업망 지도">
+              </div>
+              <div class="item04Detail">
+                <div class="left">
+                  <div class="left_left">
+                    <img src="img/commitment/network-ico01.svg" alt="전국 365일 당일 수거 시스템">
+                  </div>
+                  <div class="left_right">
+                    <p>전국 365일 당일 수거 시스템</p>
+                    <p>전국 운송망을 활용하여 365일 전국단위 당일 검체 수거 서비스를 제공합니다. 수거된 검체는 당일 검사실에 전달되어 야간검사로 연계됩니다.</p>
+                    <table>
+                      <thead>
+                        <tr>
+                          <th colspan="2">검체 수거 접수시간</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>수도권</td>
+                          <td>20:00 마감</td>
+                        </tr>
+                        <tr>
+                          <td>지방</td>
+                          <td>12:00 마감</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">
+                            - 마감시간 이전 검사의뢰 접수 시 검체 수거 방문 요청이 자동으로 접수됩니다<br>
+                            - 마감시간 이후 검사의뢰 접수 시 익일 수거 방문 진행합니다
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="right">
+                  <div class="left_left">
+                    <img src="img/commitment/network-ico02.svg" alt="콜드-체인 바이오 물류 운송 시스템">
+                  </div>
+                  <div class="left_right">
+                    <p>콜드-체인 바이오 물류 운송 시스템</p>
+                    <p>
+                      GC cell 연계 전국 60여개 영업소, 300대 이상의 수거 운송차량으로 전국 바이오 물류 전문 수거직원이 직접 운송하며, 검체 운송 전용박스를 사용하여 운송상태를 실시간으로 컨트롤 합니다.<br>
+                      그린벳은 최고의 결과 제공을 위해 콜드-체인 바이오 물류 시스템을 활용하여 전국 어디에서나 수거한 검체를 최고의 컨디션으로 유지하여 당일 검사실에 전달합니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="parallex_img" id="fours_para">
+              <p>전문 검사 파트별 <br> 검사 수행</p>
+            </div>
+            <div class="main_item05">
+              <div class="item05_header">
+                <h4>국내 최고의 전문 수의사들이 반려동물의 건강한 미래를 함께 만들어갑니다</h4>
+                <p>
+                  임상 10년 이상의 경력을 가진 진단검사 분야 수의사들과 석/박사로 구성되어 있는 특수검사 분야 전문 수의사들이<br>
+                  반려동물 건강을 위한 최고의 검사를 제공합니다.
+                </p>
+              </div>
+              <div class="item05_img">
+                <div class="detail_img">
+                  <h6>대표원장</h6>
+                  <div class="detail_flex">
+                    <div>
+                      <img src="img/commitment/veterinarian-ico01.svg" alt="대표원장">
+                      <p>박수원</p>
+                      <span>대표원장</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail_img">
+                  <h6>진단검사</h6>
+                  <div class="detail_flex">
+                    <div>
+                      <img src="img/commitment/veterinarian-ico02.svg" alt="진단검사의학">
+                      <p>양화순</p>
+                      <span>진단검사의학</span>
+                    </div>
+                    <div>
+                      <img src="img/commitment/veterinarian-ico03.svg" alt="혈액/면역">
+                      <p>고현정</p>
+                      <span>혈액/면역</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail_img">
+                  <h6>특수검사</h6>
+                  <div class="detail_flex">
+                    <div>
+                      <img src="img/commitment/veterinarian-ico04.svg" alt="병리">
+                      <p>이지영</p>
+                      <span>병리</span>
+                    </div>
+                    <div>
+                      <img src="img/commitment/veterinarian-ico05.svg" alt="병리">
+                      <p>임하영</p>
+                      <span>병리</span>
+                    </div>
+                    <div>
+                      <img src="img/commitment/veterinarian-ico06.svg" alt="진단검사의학">
+                      <p>한세희</p>
+                      <span>진단검사의학</span>
+                    </div>
+                    <div>
+                      <img src="img/commitment/veterinarian-ico07.svg" alt="분자미생물">
+                      <p>최휘연</p>
+                      <span>분자미생물</span>
+                    </div>
+                    <div>
+                      <img src="img/commitment/veterinarian-ico08.svg" alt="미생물">
+                      <p>권나영</p>
+                      <span>미생물</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item05_middle">
+                <h4>Reference Lab 시설</h4>
+                <p>전체 면적 1,229.78 m2(약 372평) - 1층 832.27 m2 / 2층 397.51 m2</p>
+              </div>
+              <div class="item05_slide">
+                <h4>주요 장비 소개</h4>
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="slideDetail">
+                        <div class="img slide01"></div>
+                        <div class="txt">
+                          <h4>Aperio® AT2</h4>
+                          <span>LECIA</span>
+                          <p>라이카 광학을 사용한 고화질, 고배율 슬라이드 정밀 스캔 장비</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slideDetail">
+                        <div class="img slide02"></div>
+                        <div class="txt">
+                          <h4>VC VITEK MS</h4>
+                          <span>Biomerieux</span>
+                          <p>Matrix-assisted laser desorption/ionization – time of flight(MALDI-TOF)기술을 이용한 미생물 동정 장비</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slideDetail">
+                        <div class="img slide03"></div>
+                        <div class="txt">
+                          <h4>Immulite 2000xpi</h4>
+                          <span>SIEMENS</span>
+                          <p>화학발광면역측정법(chemiluminescent immunoassay)을 이용한 자동면역(내분비)분석기</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slideDetail">
+                        <div class="img slide04"></div>
+                        <div class="txt">
+                          <h4>COBAS C702</h4>
+                          <span>Roche</span>
+                          <p>ISE(Ion selective electrode)법과 Photometric analysis법을 이용한 전자동 생화학 분석기</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slideDetail">
+                        <div class="img slide05"></div>
+                        <div class="txt">
+                          <h4>XN-1000V</h4>
+                          <span>SYSMEX</span>
+                          <p>동물용 자동 혈구 분석기(Automated Hematology Analyzer for Animal)</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+            <div class="parallex_img" id="five_para">
+              <p>웹 기반 <br> 실시간 결과보고</p>
+            </div>
+            <div class="main_item06">
+              <div class="item06Detail">
+                <div class="item06-1">
+                  <div>
+                    <h4>검사결과 관리 시스템 (Laboratory Information System)</h4>
+                    <p>
+                      웹과 모바일 모두 접속 가능하며, www.greenvet.co.kr 홈페이지에 접속하여 검사결과를 실시간으로 확인할 수 있습니다.<br>
+                      국내 최고의 반려동물 진단검사기관으로서 신속하고 정확한 결과를 제공합니다.
+                    </p>
+                  </div>
+                  <div class="btn arrow">
+                    <a href="#">바로가기 <b></b></a>
+                  </div>
+                </div>
+                <div class="item06-1">
+                  <div>
+                    <h4>디지털 조직병리 시스템 (Digital Pathology System)</h4>
+                    <p>
+                      자체적인 전처리 과정을 통해 제작된 조직 슬라이드를 최대 800배 확대 가능한 초고화질 이미지로 변환, 미국 수의 병리전문의에게 전달하여 판독하는 시스템으로,<br>
+                      업로드 된 이미지는 저배율(X4.6)뿐 아니라, 고배율(X800)으로 확대하여도 선명하고 정확하게 관찰 가능합니다.
+                    </p>
+                  </div>
+                  <div class="item06-1Img_area">
+                    <div><img src="img/commitment/pathology-img01.jpg" alt="5배">
+                    <span>X 5.0</span></div>
+                    <div><img src="img/commitment/pathology-img02.jpg" alt="10배">
+                    <span>X 10.0</span></div>
+                    <div><img src="img/commitment/pathology-img03.jpg" alt="400배">
+                    <span>X 400.0</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="parallex_img" id="six_para">
+              <p>가족사</p>
+            </div>
+            <div class="main_item07">
+              <h4>55년 헬스케어 GC의 노하우</h4>
+              <p>
+                검사 수탁기관 최초로 ISO9001, ISO14001 인증을 동시 획득한 GC 녹십자의료재단의 우수한 연구개발기술과 검사혁신 기술을 바탕으로 검사실을 운영합니다.<br>
+                반려동물의 행복하고 건강한 삶을 바라는 염원으로 최고의 서비스를 제공합니다.
+              </p>
+            </div>
+            <div class="parallex_img" id="seven_para">
+              <p>파트너스</p>
+            </div>
+            <div class="main_item07">
+              <h4>
+                국내 최고의 교육 기관 강원대학교, 건국대학교, 경북대학교, 충북대학교 등의<br>수의과대학과 자문협력 관계를 구축
+              </h4>
+              <p>
+                전문지식과 기술 자문 협력을 통해 지속적인 연구와 개발로 힘차게 나아가는 그린벳입니다.<br>
+                반려동물의 건강과 행복을 위해 최선을 다하여 최고의 서비스를 제공하겠습니다.
+              </p>
+              <div>
+                <img src="img/commitment/partner-img01.png" alt="강원대학교">
+                <img src="img/commitment/partner-img02.png" alt="건국대학교">
+                <img src="img/commitment/partner-img03.png" alt="경북대학교">
+                <img src="img/commitment/partner-img04.png" alt="충북대학교">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="secound_tab">
+          <div class="item01 tabMenuDetail">
+            <div class="header-2">
+              <h2>영양관리제품</h2>
+              <span>Food & Supplement</span>
+              <p>HELLO, FIVE BEANS</p>
+            </div>
+            <p>
+              Total Animal Healthcare 전문 기업인 GREEN VET은<br>
+              모든 반려동물과 반려인의 행복하고 건강한 삶을 위한 그린벳만의 솔루션을 제공합니다.
+            </p>
+          </div>
+          <div class="parallex_img" id="first_para-2"></div>
+          <div class="item02">
+            <div>
+              <h4><span>1st BEAN.</span> INNOVATION</h4>
+              <span>반려동물을 위한 과학과 혁신</span>
+              <p>
+                파이브빈스는 Total Animal Healthcare 전문 기업 GREEN VET에서 오랜 연구와 고민 끝에 만든 반려동물 전용 브랜드입니다. 파이브빈스만의 노하우와 반려동물 건강에 대한 지식을 바탕으로 과학적이고 엄격한 테스트를 거쳐 건강하면서도 효과적인 펫 제품을 개발합니다.
+              </p>
+            </div>
+            <div>
+              <h4><span>2nd BEAN.</span> HEALTHY</h4>
+              <span>반려동물의 건강을 위한 최고의 영양</span>
+              <p>
+                파이브빈스는 반려동물의 웰 라이프를 위해 라이프 케어부터 라이프 스타일까지의 모든 것을 생각합니다. 영양학, 수의학과 함께 동물의 일상의 작은 행동까지 연구하는 다양한 분야의 전문가들이 반려동물의 건강한 수명연장을 위해 끊임없이 노력하고 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="parallex_img" id="secound_para-2"></div>
+          <div class="item02">
+            <div>
+              <h4><span>3rd BEAN.</span> UNDERSTANDING</h4>
+              <span>반려동물에 대한 사랑과 이해</span>
+              <p>
+                파이브빈스는 반려동물의 알레르기를 최소화 하기 위해 옥수수, 밀, 쌀 등을 사용하지 않고 (GRAIN FREE) 위장 장애, 불편함 또한 고려하여 저자극 원료만을 (HYPOALLERGENIC) 엄선하여 제조하고 있습니다.
+              </p>
+            </div>
+            <div>
+              <h4><span>4th BEAN.</span> ENJOYMENT</h4>
+              <span>반려동물에 대한 탁월한 기호성</span>
+              <p>
+                반려동물은 후각은 사람보다 크게는 1억배까지 뛰어납니다. 하지만 미각은 오히려 사람의 5분의 1에 불과하다고 합니다. 다양한 기호성 테스트 과정을 거쳐 안전하게 검증된 파이브빈스만의 원료는 반려동물에게 매우 높은 기호성에 맛과 영양까지 겸비하고 있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="parallex_img" id="third_para-2"></div>
+          <div class="item02">
+            <div class="tab2_lastDiv">
+              <h4><span>5th BEAN.</span> HAPPINESS</h4>
+              <span>반려동물의 행복을 위한 최상의 선택</span>
+              <p>
+                반려동물을 향한 우리의 열정에는 변함이 없습니다. 파이브빈스는 반려동물과 사람이 함께할 때 서로에게 더 나은 삶이 펼쳐진다는 신념으로 반려동물과 반려인의 행복하고 건강한 삶을 지지합니다.
+              </p>
+            </div>
+            <div>
+              <div class="btn">
+                <a href="#">Brand Site <b></b></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="third_tab">
+          <div class="item01 tabMenuDetail">
+            <div class="header-2">
+              <h2>연구소</h2>
+              <span>R&D</span>
+              <p>그린벳 기업부설 연구소</p>
+            </div>
+            <p>
+              그린벳 기업부설연구소는 반려동물의 건강한 삶을 목표로 다양한 연구를 수행하고자 합니다.<br>
+              질병의 진단 뿐 아니라 예방과 치료에 필요한 연구를 수행하고자 기업부설 연구소가 설립되었습니다.
+            </p>
+            <div class="third_img">
+              <div class="third_imgDetail">
+                <div>
+                  <img src="img/commitment/research-img02.jpg" alt="시험실시기관 지정서">
+                </div>
+                <div>
+                  <p>
+                    동물용의약품등<br>
+                    시험실시기관 지정서
+                  </p>
+                  <p>동물용의료기기 임상시험</p>
+                  <span>제 202-22-04-001 호</span>
+                </div>
+              </div>
+              <div class="third_imgDetail">
+                <div>
+                  <img src="img/commitment/research-img03.jpg" alt="시험실시기관 지정서">
+                </div>
+                <div>
+                  <p>
+                    동물용의약품등<br>
+                    시험실시기관 지정서
+                  </p>
+                  <p>동물용의약품 임상시험</p>
+                  <span>제 102-22-10-002 호</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="parallex_img" id="first_para-3"></div>
+          <div class="item02">
+            <div class="item02_text">
+              <p>
+                그린벳 부설 기업 연구소는 국내 반려동물의 질병에 대한 역학적 연구를 통해 우리나라에서 실제 발생하는 질병 특성과 통계에 대한 정확한 정보를 반려인과 수의사에게 제공하고자 합니다.
+              </p>
+              <p>
+                나아가 국내 호발하는 질병들의 예방 및 효과적인 치료 목적의 연구를 수행하고, 보다 안전하고 효과적인 의약품 및 의약외품을 검증하고 개발하기 위한 기초 연구를 끊임없이 수행할 것입니다. 그린벳 기업부설 연구소는 국내/외 수의과대학, 산업체, 국책 연구소와 협업을 통해 폭 넓고 깊이 있는 연구를 수행함으로써 반려동물의 건강한 삶에 기여하겠습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mainFooter box" id="index8">
+        <footer>
+          <div class="indexFooter">
+            <div class="foot_leftArea">
+              <img src="img/main/fLogo.png" alt="Logo" />
+              <div class="foot_leftText">
+                <div>
+                  <p>(주)그린벳</p>
+                  <p>
+                    <span>주소</span>경기도 용인시 기흥구 용구대로2469번길
+                    15(보정동) (우)16907
+                  </p>
+                </div>
+                <div>
+                  <p><span>사업자등록번호</span>243-87-01984</p>
+                  <p><span>TEL</span>031-270-1500</p>
+                  <p><span>FAX</span>031-2701599</p>
+                </div>
+              </div>
+            </div>
+            <div class="foot_right">
+              <button><a href="#">Family site</a></button>
+              <div class="foot_rightText">
+                <p>회사소개</p>
+                <p>사업소개</p>
+                <p>공지사항</p>
+              </div>
+            </div>
+          </div>
+          <div class="indexFooter_under">
+            <p>© 2023 GREEN VET corporate</p>
+          </div>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
